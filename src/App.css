@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins" !important;
+}
+.s-gradient-bg {
+  background: rgb(24, 210, 174);
+  background: linear-gradient(
+    180deg,
+    rgba(24, 210, 174, 1) 0%,
+    rgba(15, 207, 235, 1) 61%
+  );
+}
+.s-btn-bg {
+  background: rgb(24, 210, 174);
+  background: linear-gradient(
+    90deg,
+    rgba(24, 210, 174, 1) 0%,
+    rgba(15, 207, 235, 1) 61%
+  );
+  color: #fff;
+  font-weight: 500;
+  border: 1px solid
+    linear-gradient(90deg, rgba(24, 210, 174, 1) 0%, rgba(15, 207, 235, 1) 61%) !important;
+}
+.s-bg-primary {
+  background-color: #1cc7c1;
+}
+.s-text-primary {
+  color: #1cc7c1;
+}
+.s-bg-secondary {
+  background-color: #203047;
+}
+.s-text-secondary {
+  color: #203047;
+}
+.s-bg-light {
+  background-color: #f4fdfb;
+}
+.s-font-500 {
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.s-cursor-pointer {
+  cursor: pointer;
+}
+.s-z-index-1 {
+  z-index: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.s-ml-1 {
+  margin-left: 5px;
+}
+.s-ml-2 {
+  margin-left: 10px;
+}
+.s-ml-3 {
+  margin-left: 15px;
+}
+.s-ml-4 {
+  margin-left: 20px;
+}
+.s-ml-5 {
+  margin-left: 25px;
+}
+.s-mr-1 {
+  margin-right: 5px;
+}
+.s-mr-2 {
+  margin-right: 10px;
+}
+.s-mr-3 {
+  margin-right: 15px;
+}
+.s-mr-4 {
+  margin-right: 20px;
+}
+.s-mr-5 {
+  margin-right: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.s-translate-hover {
+  transition: 0.6s;
+  transform: translateY(0px);
+}
+.s-translate-hover:hover {
+  transform: translateY(-10px);
 }
 
-.App-link {
-  color: #61dafb;
+.s-section-area {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button.slick-arrow.slick-prev:before,
+button.slick-arrow.slick-next:before {
+  color: #1cc7c194 !important;
 }

@@ -1,0 +1,6 @@
+.NavMenu a {
+  font-weight: 500;
+}
+.NavMenu a:hover {
+  color: #1cc7c1 !important;
+}

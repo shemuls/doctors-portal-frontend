@@ -1,0 +1,15 @@
+.dashboardMainArea {
+  height: 100vh;
+  overflow: hidden;
+}
+.leftSidebar,
+.rightContent {
+  height: 100%;
+  padding: 20px;
+}
+.leftSidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
